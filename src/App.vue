@@ -1,11 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <!-- <v-app-bar app>
       
-    </v-app-bar>
+    </v-app-bar> -->
 
     <v-content>
-      <CV/>
+      <biodata/>
+    </v-content>
+     <v-content>
+      <SE/>
+    </v-content>
+     <v-content>
+      <experiences/>
+    </v-content>
+     <v-content>
+      <conctact/>
     </v-content>
     
     <v-footer absolute height="auto" color="indigo">          
@@ -24,12 +33,18 @@
 </template>
 
 <script>
-import CV from './components/cv';
+import biodata from './components/biodata';
+import SE from './components/SE';
+import experiences from './components/experiences';
+import conctact from './components/contact';
 
 export default {
   name: 'App',
   components: {
-    CV,
+    biodata,
+    SE,
+    experiences,
+    conctact,
   },
   data: () => ({
     //
