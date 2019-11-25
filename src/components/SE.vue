@@ -1,22 +1,14 @@
 <template>
   <v-container grid-list-lg class="my-3">
-          <v-layout align-center justify-space-around>
-          </v-layout>
-          <v-layout align-center justify-space-around row fill-height>
-          <v-flex text-center>
-              <p class="headline">Skill & Education</p>
-          </v-flex>
-          </v-layout>         
-          
-        <v-layout align-center justify-space-around row fill-height>
-        
-           
-
-        </v-layout>
-         
-
-        
-      </v-container>
+    <v-row align="center" justify="center">
+      <v-col class="text-center" cols="12">
+        <span class="display-1">Personal Skills</span>
+      </v-col>
+      <v-col class="text-center" cols="8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>        
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
 
 <script>

@@ -4,6 +4,11 @@ import Vuetify from 'vuetify/lib';
 Vue.use(Vuetify);
 
 export default new Vuetify({
+  themes:{
+    light:{
+      primary: '#004d40',
+    }
+  },
   icons: {
     iconfont: 'md',
   },
