@@ -1,25 +1,56 @@
 <template>
   <div class="float-sm-none">
     <v-app>
-
-        <v-parallax height="100%" dark src="./assets/asset2.jpg">
+        <v-parallax height="100%" dark src="./assets/asset1.jpg">
           <v-content>
             <biodata/>
           </v-content>
-          <v-content>
-            <SE/>
-          </v-content>
+
+          <keep-alive>
+          <v-lazy v-model="isActive" :options="{threshold: 1}" min-height="200" transition="fade-transition">
+            <v-content>
+              <SE/>
+            </v-content>
+          </v-lazy>
+          </keep-alive>
+          
         
         <!-- <v-parallax dark src="./assets/asset1.jpg"> -->
+          <keep-alive>
+          <v-lazy
+            v-model="isActive2"
+            :options="{
+              threshold: 1
+            }"
+            min-height="200"
+            transition="fade-transition"
+          >
           <v-content>
             <experiences/>
           </v-content>
+          </v-lazy>
+          </keep-alive>
+
+
+          <keep-alive>
+          <v-lazy
+          v-model="isActive3"
+          :options="{
+            threshold: 1
+          }"
+          min-height="200"
+          transition="fade-transition"
+          >
           <v-content>
             <conctact/>
           </v-content>
+          </v-lazy>
+          </keep-alive>
+
+          
         <!-- </v-parallax>   -->
         </v-parallax> 
-        <v-footer absolute height="auto" color="#004242">  
+        <v-footer height="auto" color="#004242">  
             <v-flex
             py-3
             text-center
@@ -49,6 +80,9 @@ export default {
   },
   data: () => ({
     //
+    isActive:false,
+    isActive2:false,
+    isActive3:false,
   }),
 };
 </script>
