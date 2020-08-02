@@ -39,7 +39,7 @@
 
 
     </v-row>
-    <v-alert dense="true" :value="alert" type="info" max-width="270" dismissible="true">Coppied to clipboard </v-alert>
+    <v-alert rounded dense="true" :value="alert" type="info" max-width="270" dismissible="true">Coppied to clipboard </v-alert>
   </v-container>
 </template>
 
