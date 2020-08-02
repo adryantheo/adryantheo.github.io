@@ -2,7 +2,7 @@
   <div class="float-sm-none">
     <v-app id="main">
         <v-parallax height="100%" dark src="./assets/asset1.jpg">
-        <!-- biodata -->
+      <!-- biodata -->
           <v-main>
             <biodata/>
           </v-main>
