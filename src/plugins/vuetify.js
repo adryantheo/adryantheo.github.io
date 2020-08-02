@@ -2,14 +2,8 @@ import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 import VueClipboard from 'vue-clipboard2'
 import colors from 'vuetify/lib/util/colors';
-
-
 Vue.use(Vuetify);
 Vue.use(VueClipboard);
-
-// const opts = {}
-
-// export default new Vuetify(opts)
 export default new Vuetify({
     icons: {
         iconfont: 'mdi', // 'mdi' || 'mdiSvg' || 'md' || 'fa' || 'fa4' || 'faSvg'
@@ -28,5 +22,4 @@ export default new Vuetify({
           },
         },
       },
-
 });

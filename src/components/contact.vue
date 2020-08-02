@@ -13,19 +13,18 @@
           <v-img src="../assets/gmail.png" max-height="60" max-width="60" @click="popUp()"></v-img>
           <v-spacer></v-spacer>
           <a href="https://wa.me/628170540590"><v-img src="../assets/wa.png" max-height="60" max-width="60"></v-img></a>
-
-        <v-dialog v-model="dialog" max-width="400">
-        <v-card max-width="400">
-          <v-card-title>
-            Email Address
-            <v-spacer></v-spacer>
-            <v-icon v-clipboard:copy="myEmail" @click="myAlert()">content_copy</v-icon>
-          </v-card-title>
-          <v-card-text>
-            <span>adryantheo@gmail.com</span> 
-          </v-card-text>
-        </v-card>
-      </v-dialog>
+          <v-dialog v-model="dialog" max-width="400">
+            <v-card max-width="400">
+              <v-card-title>
+                Email Address
+                <v-spacer></v-spacer>
+                <v-icon v-clipboard:copy="myEmail" @click="myAlert()">content_copy</v-icon>
+              </v-card-title>
+              <v-card-text>
+                <span>adryantheo@gmail.com</span> 
+              </v-card-text>
+            </v-card>
+        </v-dialog>
         </v-row>
       </v-col>
     </v-row>
