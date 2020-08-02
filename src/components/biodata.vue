@@ -16,9 +16,9 @@
     <v-row align="center" justify="center">
       <v-col class="" cols="6">
         <v-row justify-sm-2>
-          <caption> <v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</caption>
+          <h4> <v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</h4>
           <v-spacer></v-spacer>
-          <caption><v-icon color="white">my_location</v-icon> &nbsp; Currently Living in East Jakarta</caption>
+          <h4><v-icon color="white">my_location</v-icon> &nbsp; Currently Living in East Jakarta</h4>
         </v-row>
       </v-col>
     </v-row>
