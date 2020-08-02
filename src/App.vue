@@ -2,15 +2,15 @@
   <div class="float-sm-none">
     <v-app>
         <v-parallax height="100%" dark src="./assets/asset1.jpg">
-          <v-content>
+          <v-main>
             <biodata/>
-          </v-content>
+          </v-main>
 
           <keep-alive>
           <v-lazy v-model="isActive" :options="{threshold: 1}" min-height="200" transition="fade-transition">
-            <v-content>
+            <v-main>
               <SE/>
-            </v-content>
+            </v-main>
           </v-lazy>
           </keep-alive>
           
@@ -25,9 +25,9 @@
             min-height="200"
             transition="fade-transition"
           >
-          <v-content>
+          <v-main>
             <experiences/>
-          </v-content>
+          </v-main>
           </v-lazy>
           </keep-alive>
 
@@ -41,9 +41,9 @@
           min-height="200"
           transition="fade-transition"
           >
-          <v-content>
+          <v-main>
             <conctact/>
-          </v-content>
+          </v-main>
           </v-lazy>
           </keep-alive>
 
