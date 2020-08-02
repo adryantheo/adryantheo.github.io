@@ -195,7 +195,7 @@
                <span class="pl-10">Outsystems</span>
               <v-spacer></v-spacer>
               <v-rating
-                :value="3.5"
+                :value="3"
                 color="yellow"
                 background-color="orange lighten-3"
                 dense
