@@ -39,7 +39,7 @@
                 <v-container>
                   <v-row>
                     <v-col cols="12">
-                      <p>Vice President at Kelompok Studi Linux (KSL) (2017-2018)</p>
+                      <p>Kelompok Studi Linux (KSL) as Vice Leader (2017-2018)</p>
                     </v-col>
                   </v-row>
                 </v-container>
@@ -83,6 +83,7 @@
                     <v-col cols="12">
                       <p>- High School Food Bazaar Application Using Vuejs and Laravel as Back-End Engineer</p>
                       <p>- Ticket Sales Application for High School's Event Using Vuejs and Laravel as Full Stack Developer</p>
+                      <p>- Workshop Himaforka UAJY "Internet of Things" as Co-Trainer</p>
                     </v-col>
                   </v-row>
                 </v-container>

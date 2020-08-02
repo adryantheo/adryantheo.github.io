@@ -9,7 +9,7 @@
       <v-col fluid class="text-center" cols="auto">
         <v-row justify-md-2>
           <!-- laravel -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img contain height="100" src="../assets/laravel.png"></v-img>
             <v-card-title class="headline">
                <span class="pl-16" >Laravel</span>
@@ -29,7 +29,7 @@
           </v-card>
           
           <!-- vuejs -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -53,7 +53,7 @@
           </v-card>
 
           <!-- Vuetify -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -77,7 +77,7 @@
           </v-card>
 
           <!-- Javascript -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -106,7 +106,7 @@
       <v-col fluid class="text-center" cols="auto">
         <v-row justify-md-2>
           <!-- Selenium -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -130,7 +130,7 @@
           </v-card>
           
           <!-- IoT -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -154,7 +154,7 @@
           </v-card>
 
           <!-- RPA -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
@@ -178,7 +178,7 @@
           </v-card>
 
           <!-- Outsystems -->
-          <v-card class="pb-4 pa-2 mx-4" width="250">
+          <v-card class="py-4 pa-2 mx-4" height="210" width="250">
             <v-img
               contain
               height="100"
