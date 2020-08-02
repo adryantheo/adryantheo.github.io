@@ -58,8 +58,8 @@
                 <v-container>
                   <v-row>
                     <v-col cols="12">
-                      <p>- Leader of National Workshop "Cyber Crime and Digital Forensic"</p>
-                      <p>- Tutor for Programming Extracurricular at Pangudi Luhur Yogyakarta High School (2018-2020)</p>
+                      <p>- National Workshop "Cybercrime and Digital Forensics" as Workshop Leaders</p>
+                      <p>- Programming Extracurricular at Pangudi Luhur Yogyakarta High School as Mentor (2018-2020)</p>
                     </v-col>
                   </v-row>
                 </v-container>
@@ -81,8 +81,8 @@
                 <v-container>
                   <v-row>
                     <v-col cols="12">
-                      <p>- High School Food Bazzard Application Using Vue.js and Laravel as Back-End Engineer</p>
-                      <p>- Ticket Sales Application for High School's Event Using Vue.js and Laravel as Full Stack Developer</p>
+                      <p>- High School Food Bazaar Application Using Vuejs and Laravel as Back-End Engineer</p>
+                      <p>- Ticket Sales Application for High School's Event Using Vuejs and Laravel as Full Stack Developer</p>
                     </v-col>
                   </v-row>
                 </v-container>
