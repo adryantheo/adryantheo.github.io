@@ -9,14 +9,15 @@
             </v-avatar>
           </div>
       </v-col>
-      <v-col class="text-center" cols="4">
+      <v-col xl="4" lg="4" md="6" class="text-center" cols="auto">
         <h3>Hey, I'm Theo, and I passionate about web and mobile application development. I'm ambitious, hardworker, and always aiming for best achievements.</h3>        
       </v-col>
     </v-row>
     <v-row align="center" justify="center">
-      <v-col class="" cols="6">
-        <v-row justify-sm-2>
-          <h4> <v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</h4>
+      <v-col xl="5" lg="5" md="7" sm="9" cols="auto" class="text-center">
+        <v-row align="center" justify="center">
+          <v-spacer></v-spacer>
+          <h4><v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</h4>
           <v-spacer></v-spacer>
           <h4><v-icon color="white">my_location</v-icon> &nbsp; Currently Living in East Jakarta</h4>
         </v-row>

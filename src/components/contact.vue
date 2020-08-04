@@ -4,7 +4,7 @@
       <v-col class="text-center" cols="12">
         <span class="display-1">Contact Person</span>
       </v-col>
-      <v-col fluid class="text-center" cols="6" md="4">
+      <v-col fluid class="text-center" xl="4" lg="4" md="auto" sm="8" xs="auto">
         <v-row justify-md-4>
           <a href="https://github.com/adryantheo/"><v-img src="../assets/github.png" max-height="60" max-width="60"></v-img></a>
           <v-spacer></v-spacer>

@@ -4,7 +4,7 @@
       <v-col class="text-center" cols="12">
         <span class="display-1">Experiences</span>
       </v-col>
-      <v-col class="text-center" cols="8">
+      <v-col class="text-center" xl="auto" lg="auto" md="10" sm="7" xs="auto">
         <v-timeline :dense="$vuetify.breakpoint.smAndDown">
           
           <!-- 2016 -->
@@ -19,7 +19,7 @@
                 </v-card-title>
                 <v-container>
                   <v-row>
-                    <v-col cols="12">
+                    <v-col xl="auto" lg="auto" md="10" sm="12" xs="auto">
                       <p>Start Studying at Atma Jaya Yogyakarta University (UAJY) </p>
                     </v-col>
                   </v-row>
@@ -33,12 +33,12 @@
               </template>
               <v-card>
                 <v-card-title class="amber lighten-1 justify-end">
-                  <h2 class="display-1 mr-4 white--text font-weight-light">Organizational</h2>
-                  <v-icon dark size="42">groups</v-icon>
+                  <h2 class="display-1 mr-1 white--text font-weight-light">Organizational</h2>
+                  <v-icon dark size="40">groups</v-icon>
                 </v-card-title>
                 <v-container>
                   <v-row>
-                    <v-col cols="12">
+                    <v-col xl="auto" lg="auto" md="10" sm="12" xs="auto">
                       <p>Kelompok Studi Linux (KSL) as Vice Leader (2017-2018)</p>
                     </v-col>
                   </v-row>
@@ -57,7 +57,7 @@
                 </v-card-title>
                 <v-container>
                   <v-row>
-                    <v-col cols="12">
+                    <v-col xl="auto" lg="auto" md="10" sm="12" xs="auto">
                       <p>- National Workshop "Cybercrime and Digital Forensics" as Workshop Leaders</p>
                       <p>- Programming Extracurricular at Pangudi Luhur Yogyakarta High School as Mentor (2018-2020)</p>
                     </v-col>
@@ -80,7 +80,7 @@
                 </v-card-title>
                 <v-container>
                   <v-row>
-                    <v-col cols="12">
+                    <v-col xl="auto" lg="auto" md="10" sm="12" xs="auto">
                       <p>- High School Food Bazaar Application Using Vuejs and Laravel as Back-End Engineer</p>
                       <p>- Ticket Sales Application for High School's Event Using Vuejs and Laravel as Full Stack Developer</p>
                       <p>- Workshop Himaforka UAJY "Internet of Things" as Co-Trainer</p>
@@ -102,7 +102,7 @@
                 </v-card-title>
                 <v-container>
                   <v-row>
-                    <v-col>
+                    <v-col xl="auto" lg="auto" md="10" sm="12" xs="auto">
                       <p>- Intern at Astra Credits Companies as Software Engineer (Jan - July)</p>
                       <p>- Graduated from Atma Jaya Yogyakarta University (June)</p>
                       <p>- Freelance at Astra Credits Companies as Mobile Engineer (July) </p>
