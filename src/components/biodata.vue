@@ -9,7 +9,7 @@
             </v-avatar>
           </div>
       </v-col>
-      <v-col xl="4" lg="4" md="6" class="text-center" cols="auto">
+      <v-col xl="5" lg="5" md="6" class="text-center" cols="auto">
         <h3>Hey, I'm Theo, and I passionate about web and mobile application development. I'm ambitious, hardworker, and always aiming for best achievements.</h3>        
       </v-col>
     </v-row>
