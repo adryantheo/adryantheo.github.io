@@ -10,7 +10,8 @@
           <v-spacer></v-spacer>
           <a href="https://www.linkedin.com/in/adryan-theo-3b881b193/"><v-img src="../assets/linkedin.png" max-height="60" max-width="60"></v-img></a>
           <v-spacer></v-spacer>
-          <v-img src="../assets/gmail.png" max-height="60" max-width="60" @click="popUp()"></v-img>
+          <a href="mailto:adryantheo@gmail.com?subject=Email from github.io"><v-img src="../assets/gmail.png" max-height="60" max-width="60"></v-img></a> 
+          <!-- <v-img src="../assets/gmail.png" max-height="60" max-width="60" @click="popUp()"></v-img> -->
           <v-spacer></v-spacer>
           <a href="https://wa.me/628170540590"><v-img src="../assets/wa.png" max-height="60" max-width="60"></v-img></a>
           <v-dialog v-model="dialog" max-width="400">
@@ -35,15 +36,15 @@
 <script>
 export default {
   data: () => ({
-    dialog: false,
+    // dialog: false,
     myEmail: "adryantheo@gmail.com",
     alert:false,
     
   }),
   methods:{
-    popUp(){
-      this.dialog = true;
-    },
+    // popUp(){
+    //   this.dialog = true;
+    // },
     myAlert(){
       this.alert = true;
       this.dialog = false;
