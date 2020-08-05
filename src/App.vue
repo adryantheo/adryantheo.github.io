@@ -1,8 +1,9 @@
 <template>
   <div class="float-sm-none">
     <v-app id="main">
+      <div id="print">
         <v-parallax height="100%" dark src="./assets/asset1.jpg">
-      <!-- biodata -->
+          <!-- biodata -->
           <v-main>
             <biodata/>
           </v-main>
@@ -33,6 +34,7 @@
         </v-parallax>
         <!-- Parallax ends here -->
         <!-- Footer Section -->
+        </div>
         <v-footer height="auto" color="#004242">  
           <v-flex py-3 text-center white--text xs12>
             &copy;2020 — <strong><a href="https://github.com/adryantheo" style="color: white">Adryan Theo</a></strong>
@@ -61,5 +63,10 @@ export default {
     isActive2:false,
     isActive3:false,
   }),
+  methods:{
+    printMe(){
+      this.$htmlToPaper('print');
+    }
+  }
 };
 </script>
