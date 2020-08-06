@@ -5,7 +5,7 @@
         <span class="display-1">Experiences</span>
       </v-col>
       <v-col class="text-center" xl="auto" lg="auto" md="10" sm="7" xs="auto">
-        <v-timeline :dense="$vuetify.breakpoint.smAndDown">
+        <v-timeline>
           
           <!-- 2016 -->
             <v-timeline-item color="purple lighten-2" fill-dot right small>
@@ -14,8 +14,8 @@
               </template>
               <v-card>
                 <v-card-title class="purple lighten-2">
-                  <v-icon dark size="42" class="mr-4">mdi-school</v-icon>
-                  <h2 class="display-1 white--text font-weight-light">College</h2>
+                  <v-icon dark size="36" class="mr-4">mdi-school</v-icon>
+                  <h6 class="display-1 white--text font-weight-light">College</h6>
                 </v-card-title>
                 <v-container>
                   <v-row>
@@ -33,8 +33,8 @@
               </template>
               <v-card>
                 <v-card-title class="amber lighten-1 justify-end">
-                  <h2 class="display-1 mr-1 white--text font-weight-light">Organizational</h2>
-                  <v-icon dark size="40">groups</v-icon>
+                  <h6 class="display-1 mr-4 white--text font-weight-light">Organizational</h6>
+                  <v-icon dark size="36">groups</v-icon>
                 </v-card-title>
                 <v-container>
                   <v-row>
@@ -52,8 +52,8 @@
               </template>
               <v-card>
                 <v-card-title class="cyan lighten-1">
-                  <v-icon class="mr-4" dark size="42">public</v-icon>
-                  <h2 class="display-1 white--text font-weight-light">Activities</h2>
+                  <v-icon class="mr-4" dark size="36">public</v-icon>
+                  <h6 class="display-1 white--text font-weight-light">Activities</h6>
                 </v-card-title>
                 <v-container>
                   <v-row>
@@ -73,8 +73,8 @@
               </template>
               <v-card>
                 <v-card-title class="red lighten-1 justify-end">
-                  <h2 class="display-1 mr-4 white--text font-weight-light">Activities</h2>
-                  <v-icon dark size="42">
+                  <h6 class="display-1 mr-4 white--text font-weight-light">Activities</h6>
+                  <v-icon dark size="36">
                     mdi-account-multiple-outline
                   </v-icon>
                 </v-card-title>
@@ -97,8 +97,8 @@
               </template>
               <v-card>
                 <v-card-title class="green lighten-1">
-                  <v-icon class="mr-4" dark size="42">person</v-icon>
-                  <h2 class="display-1 white--text font-weight-light">Existing</h2>
+                  <v-icon class="mr-4" dark size="36">person</v-icon>
+                  <h6 class="display-1 white--text font-weight-light">Existing</h6>
                 </v-card-title>
                 <v-container>
                   <v-row>

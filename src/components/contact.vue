@@ -14,7 +14,7 @@
           <!-- <v-img src="../assets/gmail.png" max-height="60" max-width="60" @click="popUp()"></v-img> -->
           <v-spacer></v-spacer>
           <a href="https://wa.me/628170540590"><v-img src="../assets/wa.png" max-height="60" max-width="60"></v-img></a>
-          <v-dialog v-model="dialog" max-width="400">
+          <!-- <v-dialog v-model="dialog" max-width="400">
             <v-card max-width="400">
               <v-card-title>
                 Email Address
@@ -25,11 +25,11 @@
                 <span>adryantheo@gmail.com</span> 
               </v-card-text>
             </v-card>
-        </v-dialog>
+        </v-dialog> -->
         </v-row>
       </v-col>
     </v-row>
-    <v-alert rounded dense :value="alert" type="info" max-width="270" dismissible transition="scale-transition">Coppied to clipboard </v-alert>
+    <!-- <v-alert rounded dense :value="alert" type="info" max-width="270" dismissible transition="scale-transition">Coppied to clipboard </v-alert> -->
   </v-container>
 </template>
 
@@ -38,7 +38,7 @@ export default {
   data: () => ({
     // dialog: false,
     myEmail: "adryantheo@gmail.com",
-    alert:false,
+    // alert:false,
     
   }),
   methods:{
@@ -46,8 +46,8 @@ export default {
     //   this.dialog = true;
     // },
     myAlert(){
-      this.alert = true;
-      this.dialog = false;
+      // this.alert = true;
+      // this.dialog = false;
       setTimeout(()=>{
         this.alert=false
       },1000)
