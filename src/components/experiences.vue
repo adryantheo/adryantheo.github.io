@@ -4,9 +4,8 @@
       <v-col class="text-center" cols="12">
         <span class="display-1">Experiences</span>
       </v-col>
-      <v-col class="text-center" xl="auto" lg="auto" md="10" sm="7" xs="auto">
-        <v-timeline>
-          
+      <v-col class="text-center" xl="auto" lg="auto" md="10" sm="auto" xs="auto">
+        <v-timeline dense="">          
           <!-- 2016 -->
             <v-timeline-item color="purple lighten-2" fill-dot right small>
               <template v-slot:opposite>
@@ -33,7 +32,7 @@
               </template>
               <v-card>
                 <v-card-title class="amber lighten-1 justify-end">
-                  <h6 class="display-1 mr-4 white--text font-weight-light">Organizational</h6>
+                  <h6 class="display-1 mr-4 white--text font-weight-light">Groups</h6>
                   <v-icon dark size="36">groups</v-icon>
                 </v-card-title>
                 <v-container>
