@@ -5,7 +5,7 @@
         <span class="display-1">Experiences</span>
       </v-col>
       <v-col class="text-center" xl="auto" lg="auto" md="10" sm="auto" xs="auto">
-        <v-timeline dense="">          
+        <v-timeline :dense="$vuetify.breakpoint.xs">          
           <!-- 2016 -->
             <v-timeline-item color="purple lighten-2" fill-dot right small>
               <template v-slot:opposite>
