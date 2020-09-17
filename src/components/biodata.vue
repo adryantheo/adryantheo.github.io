@@ -14,7 +14,7 @@
       </v-col>
     </v-row>
     <v-row align="center" justify="center">
-      <v-col xl="5" lg="5" md="7" sm="9" cols="auto" class="text-center">
+      <v-col xl="4" lg="4" md="7" sm="9" cols="auto" class="text-center">
         <v-row align="center" justify="center">
           <v-spacer></v-spacer>
           <h4><v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</h4>

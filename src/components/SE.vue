@@ -6,7 +6,7 @@
       </v-col>
             
       <!-- coloumn1 -->
-      <v-col xl="auto" lg="auto" md="8" sm="10" xs="auto" class="text-center">
+      <v-col xl="8" lg="8" md="8" sm="10" xs="auto" class="text-center">
         <v-row align="center" justify="center">
           <!-- laravel -->
           <v-card class=" pa-2 ma-4" height="210" width="250">
