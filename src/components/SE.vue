@@ -195,6 +195,103 @@
                   ></v-rating>
             </v-card-title>
           </v-card>
+
+          <!-- React -->
+          <v-card class=" pa-2 ma-4" height="210" width="250">
+            <v-img
+              contain
+              height="100"
+              src="../assets/React.png"
+            ></v-img>
+            <v-card-title class="headline">
+               <span class="pl-10">React JS</span>
+                <v-spacer></v-spacer>
+                <v-rating
+                  :value="4"
+                  color="yellow"
+                  background-color="orange lighten-3"
+                  dense
+                  light
+                  half-increments
+                  readonly
+                  size="28"
+                  class="pl-6"
+                  ></v-rating>
+            </v-card-title>
+          </v-card>
+
+            <!-- PostgreSQL -->
+          <v-card class=" pa-2 ma-4" height="210" width="250">
+            <v-img
+              contain
+              height="100"
+              src="../assets/Postgres.png"
+            ></v-img>
+            <v-card-title class="headline">
+               <span class="pl-10">PostgreSQL</span>
+                <v-spacer></v-spacer>
+                <v-rating
+                  :value="3.5"
+                  color="yellow"
+                  background-color="orange lighten-3"
+                  dense
+                  light
+                  half-increments
+                  readonly
+                  size="28"
+                  class="pl-6"
+                  ></v-rating>
+            </v-card-title>
+          </v-card>
+
+          <!--React Native -->
+          <v-card class=" pa-2 ma-4" height="210" width="250">
+            <v-img
+              contain
+              height="100"
+              src="../assets/React-Native.png"
+            ></v-img>
+            <v-card-title class="headline">
+               <span class="pl-10">React Native</span>
+                <v-spacer></v-spacer>
+                <v-rating
+                  :value="4"
+                  color="yellow"
+                  background-color="orange lighten-3"
+                  dense
+                  light
+                  half-increments
+                  readonly
+                  size="28"
+                  class="pl-6"
+                  ></v-rating>
+            </v-card-title>
+          </v-card>
+
+          <!-- GrahpQL -->
+          <v-card class=" pa-2 ma-4" height="210" width="250">
+            <v-img
+              contain
+              height="100"
+              src="../assets/Grahpql.png"
+            ></v-img>
+            <v-card-title class="headline">
+               <span class="pl-10">GrahpQL</span>
+                <v-spacer></v-spacer>
+                <v-rating
+                  :value="3.5"
+                  color="yellow"
+                  background-color="orange lighten-3"
+                  dense
+                  light
+                  half-increments
+                  readonly
+                  size="28"
+                  class="pl-6"
+                  ></v-rating>
+            </v-card-title>
+          </v-card>
+
         </v-row>
       </v-col>
 
