@@ -17,7 +17,7 @@
       <v-col xl="4" lg="4" md="7" sm="9" cols="auto" class="text-center">
         <v-row align="center" justify="center">
           <v-spacer></v-spacer>
-          <h4><v-icon color="white">cake</v-icon> &nbsp; Semarang, 27 October 1998</h4>
+          <h4><v-icon color="white">cake</v-icon> &nbsp; Semarang, October 1998</h4>
           <v-spacer></v-spacer>
           <h4><v-icon color="white">my_location</v-icon> &nbsp; Currently Living in East Jakarta</h4>
         </v-row>

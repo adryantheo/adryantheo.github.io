@@ -37,7 +37,7 @@
         </div>
         <v-footer height="auto" color="#004242">  
           <v-flex py-3 text-center white--text xs12>
-            &copy;2020 — <strong><a href="https://github.com/adryantheo" style="color: white">Adryan Theo</a></strong>
+            &copy;2021 — <strong><a href="https://github.com/adryantheo" style="color: white">Adryan Theo</a></strong>
           </v-flex>          
         </v-footer>
     </v-app>
