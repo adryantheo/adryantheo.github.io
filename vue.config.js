@@ -1,3 +1,9 @@
+// module.exports = {
+//     publicPath: '/adryantheo.github.io/'
+//   }
+
 module.exports = {
-    publicPath: '/adryantheo.github.io/'
-  }
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/adryantheo.github.io/'
+    : '/'
+}
