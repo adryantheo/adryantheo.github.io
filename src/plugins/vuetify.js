@@ -2,6 +2,8 @@ import Vue from 'vue';
 import Vuetify from 'vuetify/lib';
 import VueClipboard from 'vue-clipboard2'
 import colors from 'vuetify/lib/util/colors';
+import '@mdi/font/css/materialdesignicons.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css'
 Vue.use(Vuetify);
 Vue.use(VueClipboard);
 export default new Vuetify({
